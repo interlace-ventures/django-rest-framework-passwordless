@@ -69,6 +69,9 @@ DEFAULTS = {
     # The verification email template name.
     'PASSWORDLESS_EMAIL_VERIFICATION_TOKEN_HTML_TEMPLATE_NAME': "passwordless_default_verification_token_email.html",
 
+    # The verification email template name.
+    'REDIRECT_URL': "http://github.com",
+
     # The message sent to mobile users logging in. Takes one string.
     'PASSWORDLESS_MOBILE_VERIFICATION_MESSAGE': "Enter this verification code: %s",
 
