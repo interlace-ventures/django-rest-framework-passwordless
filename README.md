@@ -1,3 +1,5 @@
+Updated from drfpasswordless to add email and link in the confirmation email.
+
 ![splash-image]
 ![ci-image]
 
