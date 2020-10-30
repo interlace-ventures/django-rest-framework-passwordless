@@ -135,7 +135,6 @@ def send_email_with_callback_token(user, email_token, **kwargs):
 
             # Inject context if user specifies.
             context = inject_template_context({'redirect_url': api_settings.REDIRECT_URL, 'callback_token': email_token.key, 'email': user.email})
-            print(context)
             html_message = loader.render_to_string(email_html, context,)
             send_mail(
                 email_subject,
@@ -155,6 +154,7 @@ def send_email_with_callback_token(user, email_token, **kwargs):
                   "Possibly no email on user object. Email entered was %s" %
                   (user.id, getattr(user, api_settings.PASSWORDLESS_USER_EMAIL_FIELD_NAME)))
         logger.debug(e)
+        print(e)
         return False
 
 

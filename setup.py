@@ -14,15 +14,15 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-name = 'drfpasswordless'
+name = 'drfpasswordless-interlace'
 
-NAME = 'drfpasswordless'
-DESCRIPTION = 'Passwordless auth for Django Rest Framework Token Authentication.'
-URL = 'https://github.com/aaronn/django-rest-framework-passwordless'
-EMAIL = 'hi@aaron.ng'
-AUTHOR = 'Aaron Ng'
+NAME = 'drfpasswordless-interlace'
+DESCRIPTION = 'Passwordless auth for Django Rest Framework Token Authentication. Update from drfpasswordless by interlacevc.'
+URL = 'https://github.com/interlace-ventures/django-rest-framework-passwordless'
+EMAIL = 'hello@interlacevc.com'
+AUTHOR = 'Original Aaron Ng - updated Interlace'
 REQUIRES_PYTHON = '>=3'
-VERSION = None
+VERSION = '1.5.6.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
